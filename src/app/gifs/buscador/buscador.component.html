@@ -1,0 +1,12 @@
+<h5>Buscar:</h5>
+<input 
+    type="text" 
+    class="form-control" 
+    placeholder="Buscar gifs..."
+    (keyup.enter)="buscar()"
+    #txtBuscar
+    >
+<!-- 
+    el evento (keyup) se dispara para todas las teclas que se pulsen 
+    mientrs que el (keyup.enter) solo se dispara cuando pulsen enter
+-->
